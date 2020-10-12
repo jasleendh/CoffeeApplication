@@ -1,0 +1,101 @@
+body {
+    background-color: rgb(235, 222, 204);
+}
+
+@media screen and (min-width: 500px) {
+    #sec1 {
+        border: 1px hidden;
+        margin-left: 110px;
+        margin-right: 110px;
+        margin-top: 20px;
+        background-image: radial-gradient(rgb(197, 13, 13), rgb(66, 0, 0));
+    }
+    #container div {
+        display: inline-block;
+        height: 200px;
+        padding-top: 20px;
+        padding-right: 200px;
+    }
+    div #title {
+        color: white;
+        font-size: 90px;
+        float: right;
+    }
+    div #cup {
+        margin-left: 50%;
+    }
+    .regularCup {
+        height: 180px;
+    }
+    .mediumCup {
+        height: 240px;
+    }
+    .largeCup {
+        height: 300px;
+    }
+    .extraLargeCup {
+        height: 390px;
+    }
+    #sec2 {
+        border: 2px solid;
+        margin-left: 110px;
+        margin-right: 110px;
+        margin-top: 30px;
+        padding-left: 12%;
+        padding-top: 2%;
+        padding-bottom: 3%;
+        border-color: rgb(82, 41, 37);
+    }
+    #welcome {
+        color: rgb(83, 42, 38);
+        text-align: center;
+        font-size: 70px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    input[type=number] {
+        width: 100px;
+        height: 28px;
+        font-size: 20px;
+    }
+    #sec3 {
+        border: 2px solid;
+        margin-left: 110px;
+        margin-right: 110px;
+        margin-top: 30px;
+        padding-left: 12%;
+        padding-top: 2%;
+        padding-bottom: 3%;
+        border-color: rgb(82, 41, 37);
+    }
+    h3 {
+        font-size: 50px;
+        color: rgb(83, 42, 38);
+    }
+    label {
+        font-size: 30px;
+    }
+    .size {
+        width: 150px;
+        height: 33px;
+    }
+    input[type=submit] {
+        width: 130px;
+        height: 30px;
+        font-size: 20px;
+    }
+    #summary {
+        font-size: 50px;
+        color: rgb(83, 42, 38);
+    }
+    .phpSec1 {
+        border: 2px solid;
+        border-color: rgb(82, 41, 37);
+        background: white;
+        margin-top: 20px;
+        padding-left: 1.5%;
+        padding-top: 2%;
+        padding-bottom: 1%;
+    }
+}
+
+

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="CSS/style.css" />
+        <title>Welcome to tim hortons</title>
+    </head>
+
+    <body>
+        <section id="sec1">
+            <div id="container">
+                <div><img src="images/titleCup_.png" alt="cup" id="cup"></div>
+                <div>
+                    <p id="title">Always Fresh.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <h1 id="welcome">Welcome to Tim Horton's!</h1>
+
+        <section id="sec2">
+            <h3>Give us some numbers...</h3>
+            <form action="index.php" method="POST">
+                <label for="quantity"> Number of Coffees: </label>
+                <input type="number" name="no_of_coffees"><br><br>
+
+                <label for="size"> Size: </label>
+                <select name="Order" class="size">
+                    <div>
+                        <option value="regularCup">Regular</option>
+                        <option value="mediumCup">Medium</option>
+                        <option value="largeCup">Large</option>
+                        <option value="extraLargeCup">Extra Large</option>
+                    </div>
+                </select><br><br>
+
+                <label for="creams"> How many creams? </label>
+                <input type="number" name="creams"><br><br>
+
+                <label for="sugars"> How many sugars? </label>
+                <input type="number" name="sugars"><br><br>
+
+                <input type="submit" value="Order Coffee" name="OrderCoffee"> </form>
+        </section>
+
+        <section id="sec3">
+            <form action="index.php" method="POST">
+                <h3>...or use the slang!</h3>
+                <input type="number" name="no_of_slang_coffees">
+                <select name="slangOrder" class="size">
+                    <div>
+                        <option value="regularCup">Regular</option>
+                        <option value="mediumCup">Medium</option>
+                        <option value="largeCup">Large</option>
+                        <option value="extraLargeCup">Extra Large</option>
+                    </div>
+                </select><br><br>
+
+                <input type="radio" name="coffee" value="regular">
+                <label for="regular">Regular</label><br><br>
+
+                <input type="radio" name="coffee" value="double">
+                <label for="double">Double Double</label><br><br>
+
+                <input type="radio" name="coffee" value="triple">
+                <label for="triple">Triple Triple</label><br><br>
+
+                <input type="radio" name="coffee" value="black">
+                <label for="black">Black</label><br><br>
+
+                <input type="radio" name="coffee" value="black_one_sugar">
+                <label for="blackOneSugar">Black One Sugar</label><br><br>
+
+                <input type="radio" name="coffee" value="black_two_sugars">
+                <label for="blackTwoSugar">Black Two Sugar</label><br><br>
+
+                <input type="radio" name="coffee" value="black_three_sugars">
+                <label for="blackThreeSugar">Black Three Sugar</label><br><br>
+
+                <input type="submit" value="Order Coffee" name="Order_slang_coffee">
+            </form>
+        </section>
+    </body>
+
+</html>
